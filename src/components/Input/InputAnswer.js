@@ -1,6 +1,7 @@
-import { useState } from 'react'
 import styles from './InputAnswer.module.css'
 import InputBox from '../UI/InputBox'
+;
+
 
 const InputAnswer = ({ inputText }) => {
   return (

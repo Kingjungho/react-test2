@@ -1,9 +1,10 @@
 .entire {
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: rgba(5, 127, 146, 0.685);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }

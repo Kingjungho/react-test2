@@ -7,7 +7,7 @@ function App() {
   const [addUser, setAddUser] = useState([])
 
   const inputAnswerList = (uName, uAge) => {
-    setAddUser(prevUserList => [...prevUserList, { username: uName, age: uAge }])
+    setAddUser([...addUser, { username: uName, age: uAge }])
   }
 
   return (
